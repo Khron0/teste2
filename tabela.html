@@ -4,50 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Tabela em HTML</title>
+    <style>
+      body{background-color: rgb(61, 75, 74);
+      margin: 20px,;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      table{width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th, td{
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+      }
+      th {
+        background-color: rgb(31, 35, 39);
+      }
+    </style>
 </head>
 <body>
-    <h1>Exemplo de Tabela em HTML</h1>
+    <h1 style="color: lightsteelblue;">Exemplo de Tabela em HTML</h1>
 
     <table>
-      <caption>Tabela de Produtos</caption>
+      <caption style="color: lightgray;">Tabela de Produtos</caption>
       <thead>
         <tr>
-            <th>ID</th>
-            <th>Produtos</th>
-            <th>Preços</th>
-            <th>Quantidade</th>
+            <th style="color: lightgray;">ID</th>
+            <th style="color: lightgray;">Produtos</th>
+            <th style="color: lightgray;">Preços</th>
+            <th style="color: lightgray;">Quantidade</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>1</td>
-            <td>Notebook</td>
-            <td>R$ 3.500,00</td>
-            <td>10</td>
+            <td style="color: lightgray;">1</td>
+            <td style="color: lightgray;">Notebook</td>
+            <td style="color: lightgray;">R$ 3.500,00</td>
+            <td style="color: lightgray;">10</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>ipad</td>
-            <td>R$ 1.825,50</td>
-            <td>7</td>
+            <td style="color: lightgray;">2</td>
+            <td style="color: lightgray;">ipad</td>
+            <td style="color: lightgray;">R$ 1.825,50</td>
+            <td style="color: lightgray;">7</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Mouse</td>
-            <td>R$ 57,50</td>
-            <td>50</td>
+            <td style="color: lightgray;">3</td>
+            <td style="color: lightgray;">Mouse</td>
+            <td style="color: lightgray;">R$ 57,50</td>
+            <td style="color: lightgray;">50</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>Celular</td>
-            <td>R$ 1.759,00</td>
-            <td>70</td>
+            <td style="color: lightgray;">4</td>
+            <td style="color: lightgray;">Celular</td>
+            <td style="color: lightgray;">R$ 1.759,00</td>
+            <td style="color: lightgray;">70</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-            <td colspan="3">Total de produtos:</td>
-            <td>137</td>
+            <td style="color: lightgray;" colspan="3">Total de produtos:</td>
+            <td style="color: lightgray;">137</td>
         </tr>
       </tfoot>
     </table>
